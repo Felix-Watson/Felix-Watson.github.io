@@ -1,0 +1,135 @@
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+body {
+  margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 300%;
+}
+
+/* Style the top navigation bar */
+.topnav {
+    padding-left: 2em;
+    font-size: 25%;
+  overflow: hidden;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    color: #ed6f00;
+}
+
+/* Style the content */
+.content {
+  padding: 3em;
+    padding-bottom: .1em;
+}
+.astronaut {
+    padding top: 2em;
+  width: 100%; /* Should be removed. Only for demonstration */
+}
+/* Style the footer */
+.footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+
+
+</style>
+
+
+
+<div class="topnav">
+  <a href="#">Link</a>
+  <a href="#">Link</a>
+  <a href="#">Link</a>
+</div>
+
+<div class="content">
+  <h2>CSS Template</h2>
+  <p>A topnav, content and a footer.</p>
+</div>
+
+<div class="footer">
+  <p>Footer</p>
+</div>
+
+/* contact form style */
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+body { background:rgb(30,30,40); }
+form { max-width:420px; margin:50px auto; }
+
+.feedback-input {
+  color:white;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border:2px solid white;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+.feedback-input:focus { border:1px solid #ed6f00; }
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+[type="submit"] {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 100%;
+  background:#ffffff;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:black;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+[type="submit"]:hover { background:#ed6f00; }
+
+
+/* styling hyperlink tags */
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover 
+{
+     color:#ed6f00; 
+     text-decoration:none; 
+     cursor:pointer;  
+}
